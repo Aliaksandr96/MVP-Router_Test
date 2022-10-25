@@ -78,8 +78,8 @@
 		DA42BB9D290711CB00E52542 /* Welcome */ = {
 			isa = PBXGroup;
 			children = (
-				DA583367290815B2000C06CF /* SecondWelcome */,
-				DA58336629081593000C06CF /* FirstWelcome */,
+				DA5833762908172A000C06CF /* SecondWelcome */,
+				DA583375290816FC000C06CF /* FirstWelcome */,
 				DA42BB9E290711D400E52542 /* MainWelcome */,
 			);
 			path = Welcome;
@@ -95,24 +95,24 @@
 			path = MainWelcome;
 			sourceTree = "<group>";
 		};
-		DA58336629081593000C06CF /* FirstWelcome */ = {
+		DA583375290816FC000C06CF /* FirstWelcome */ = {
 			isa = PBXGroup;
 			children = (
 				DA5833682908162B000C06CF /* FirstWelcomeView.swift */,
 				DA58336A29081639000C06CF /* FirstWelcomePresenter.swift */,
 				DA58336C29081646000C06CF /* FirstWelcomeRouter.swift */,
 			);
-			name = FirstWelcome;
+			path = FirstWelcome;
 			sourceTree = "<group>";
 		};
-		DA583367290815B2000C06CF /* SecondWelcome */ = {
+		DA5833762908172A000C06CF /* SecondWelcome */ = {
 			isa = PBXGroup;
 			children = (
 				DA58336E29081659000C06CF /* SecondWelcomeView.swift */,
 				DA58337029081668000C06CF /* SecondWelcomePresenter.swift */,
 				DA58337229081685000C06CF /* SecondWelcomeRouter.swift */,
 			);
-			name = SecondWelcome;
+			path = SecondWelcome;
 			sourceTree = "<group>";
 		};
 		DAD92FFA2906F45D00ECD2FD = {
