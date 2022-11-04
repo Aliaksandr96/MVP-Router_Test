@@ -1,7 +1,8 @@
 import Foundation
 
 protocol MainWelcomePresenter {
-   
+    func showFirstWelcomeView()
+    func showSecondWelcomeView()
 }
 
 final class DefaultMainWelcomePresenter: MainWelcomePresenter {
@@ -16,6 +17,12 @@ final class DefaultMainWelcomePresenter: MainWelcomePresenter {
     init(view: MainWelcomeView, router: MainWelcomeRouterInput) {
         self.view = view
         self.router = router
+    }
+    func showFirstWelcomeView() {
+        router.moveToFirstWelcomeView()
+    }
+    func showSecondWelcomeView() {
+        router.moveToSecondWelcomeView()
     }
 }
 

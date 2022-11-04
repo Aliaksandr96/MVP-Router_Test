@@ -16,6 +16,12 @@
 		DA42BBA0290711E600E52542 /* WelcomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA42BB9F290711E600E52542 /* WelcomView.swift */; };
 		DA42BBA2290711EF00E52542 /* MainWelcomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA42BBA1290711EF00E52542 /* MainWelcomePresenter.swift */; };
 		DA42BBA4290711FE00E52542 /* WelcomRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA42BBA3290711FE00E52542 /* WelcomRouter.swift */; };
+		DA5833692908162B000C06CF /* FirstWelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5833682908162B000C06CF /* FirstWelcomeView.swift */; };
+		DA58336B29081639000C06CF /* FirstWelcomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA58336A29081639000C06CF /* FirstWelcomePresenter.swift */; };
+		DA58336D29081646000C06CF /* FirstWelcomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA58336C29081646000C06CF /* FirstWelcomeRouter.swift */; };
+		DA58336F29081659000C06CF /* SecondWelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA58336E29081659000C06CF /* SecondWelcomeView.swift */; };
+		DA58337129081668000C06CF /* SecondWelcomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA58337029081668000C06CF /* SecondWelcomePresenter.swift */; };
+		DA58337329081685000C06CF /* SecondWelcomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA58337229081685000C06CF /* SecondWelcomeRouter.swift */; };
 		DAD930072906F45D00ECD2FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD930062906F45D00ECD2FD /* AppDelegate.swift */; };
 		DAD930092906F45D00ECD2FD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD930082906F45D00ECD2FD /* SceneDelegate.swift */; };
 		DAD930102906F45E00ECD2FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAD9300F2906F45E00ECD2FD /* Assets.xcassets */; };
@@ -32,6 +38,12 @@
 		DA42BB9F290711E600E52542 /* WelcomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomView.swift; sourceTree = "<group>"; };
 		DA42BBA1290711EF00E52542 /* MainWelcomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWelcomePresenter.swift; sourceTree = "<group>"; };
 		DA42BBA3290711FE00E52542 /* WelcomRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomRouter.swift; sourceTree = "<group>"; };
+		DA5833682908162B000C06CF /* FirstWelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstWelcomeView.swift; sourceTree = "<group>"; };
+		DA58336A29081639000C06CF /* FirstWelcomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstWelcomePresenter.swift; sourceTree = "<group>"; };
+		DA58336C29081646000C06CF /* FirstWelcomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstWelcomeRouter.swift; sourceTree = "<group>"; };
+		DA58336E29081659000C06CF /* SecondWelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondWelcomeView.swift; sourceTree = "<group>"; };
+		DA58337029081668000C06CF /* SecondWelcomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondWelcomePresenter.swift; sourceTree = "<group>"; };
+		DA58337229081685000C06CF /* SecondWelcomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondWelcomeRouter.swift; sourceTree = "<group>"; };
 		DAD930032906F45D00ECD2FD /* MVP_Router.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVP_Router.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAD930062906F45D00ECD2FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DAD930082906F45D00ECD2FD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +78,8 @@
 		DA42BB9D290711CB00E52542 /* Welcome */ = {
 			isa = PBXGroup;
 			children = (
+				DA5833762908172A000C06CF /* SecondWelcome */,
+				DA583375290816FC000C06CF /* FirstWelcome */,
 				DA42BB9E290711D400E52542 /* MainWelcome */,
 			);
 			path = Welcome;
@@ -79,6 +93,26 @@
 				DA42BBA3290711FE00E52542 /* WelcomRouter.swift */,
 			);
 			path = MainWelcome;
+			sourceTree = "<group>";
+		};
+		DA583375290816FC000C06CF /* FirstWelcome */ = {
+			isa = PBXGroup;
+			children = (
+				DA5833682908162B000C06CF /* FirstWelcomeView.swift */,
+				DA58336A29081639000C06CF /* FirstWelcomePresenter.swift */,
+				DA58336C29081646000C06CF /* FirstWelcomeRouter.swift */,
+			);
+			path = FirstWelcome;
+			sourceTree = "<group>";
+		};
+		DA5833762908172A000C06CF /* SecondWelcome */ = {
+			isa = PBXGroup;
+			children = (
+				DA58336E29081659000C06CF /* SecondWelcomeView.swift */,
+				DA58337029081668000C06CF /* SecondWelcomePresenter.swift */,
+				DA58337229081685000C06CF /* SecondWelcomeRouter.swift */,
+			);
+			path = SecondWelcome;
 			sourceTree = "<group>";
 		};
 		DAD92FFA2906F45D00ECD2FD = {
@@ -217,11 +251,17 @@
 				DAD930072906F45D00ECD2FD /* AppDelegate.swift in Sources */,
 				DA42BBA2290711EF00E52542 /* MainWelcomePresenter.swift in Sources */,
 				DA42BB9A29070DC600E52542 /* SecondOnboardingPresenter.swift in Sources */,
+				DA58336F29081659000C06CF /* SecondWelcomeView.swift in Sources */,
 				DA42BB9829070DBA00E52542 /* SecondOnboardingView.swift in Sources */,
 				DA42BB902907078900E52542 /* FirstOnboardingPresenter.swift in Sources */,
 				DA42BBA4290711FE00E52542 /* WelcomRouter.swift in Sources */,
+				DA58337129081668000C06CF /* SecondWelcomePresenter.swift in Sources */,
 				DAD930092906F45D00ECD2FD /* SceneDelegate.swift in Sources */,
+				DA58337329081685000C06CF /* SecondWelcomeRouter.swift in Sources */,
+				DA58336B29081639000C06CF /* FirstWelcomePresenter.swift in Sources */,
 				DA42BBA0290711E600E52542 /* WelcomView.swift in Sources */,
+				DA5833692908162B000C06CF /* FirstWelcomeView.swift in Sources */,
+				DA58336D29081646000C06CF /* FirstWelcomeRouter.swift in Sources */,
 				DA42BB9529070AE700E52542 /* FirstOnboardingRouter.swift in Sources */,
 				DAD930422907052400ECD2FD /* FirstOnboardingView.swift in Sources */,
 				DA42BB9C29070DD100E52542 /* SecondOnboardingRouter.swift in Sources */,

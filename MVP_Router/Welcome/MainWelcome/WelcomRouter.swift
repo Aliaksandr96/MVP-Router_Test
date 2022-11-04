@@ -1,7 +1,8 @@
 import UIKit
 
 protocol MainWelcomeRouterInput {
-    
+    func moveToFirstWelcomeView()
+    func moveToSecondWelcomeView()
 }
 
 final class MainWelcomeRouter {
@@ -25,5 +26,10 @@ final class MainWelcomeRouter {
 
 // MARK: - Extensions
 extension MainWelcomeRouter: MainWelcomeRouterInput {
-
+    func moveToFirstWelcomeView() {
+        let _ = FirstWelcomRouter(navigationController: navigationController, window: window)
+    }
+    func moveToSecondWelcomeView() {
+        let _ = SecondWelcomeRouter(navigationController: navigationController, window: window)
+    }
 }
